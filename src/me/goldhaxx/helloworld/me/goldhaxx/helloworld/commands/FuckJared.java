@@ -17,13 +17,13 @@ public class FuckJared implements CommandExecutor {
     }
 
     @Override
-    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if (!(sender instanceof Player)) {
-            sender.sendMessage("Only players may execute this command!");
+    public boolean onCommand(CommandSender sender2, Command cmd2, String label2, String[] args2) {
+        if (!(sender2 instanceof Player)) {
+            sender2.sendMessage("Only players may execute this command!");
             return true;
         }
 
-        Player p = (Player) sender;
+        Player p = (Player) sender2;
 
         if (p.hasPermission("hello.use")){
             p.sendMessage("Fuck you Jared :)");
