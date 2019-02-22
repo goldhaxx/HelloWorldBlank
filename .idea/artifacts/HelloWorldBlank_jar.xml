@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HelloWorldBlank:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloWorldBlank_jar</output-path>
+    <root id="archive" name="HelloWorldBlank.jar">
+      <element id="module-output" name="HelloWorldBlank" />
+      <element id="extracted-dir" path="$USER_HOME$/OneDrive/OneDrive - Zachary Alan Wright/CodeHub/Java/Libraries/Minecraft/BuildTools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/OneDrive/OneDrive - Zachary Alan Wright/CodeHub/Java/Libraries/Minecraft/spigot-1.13.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
