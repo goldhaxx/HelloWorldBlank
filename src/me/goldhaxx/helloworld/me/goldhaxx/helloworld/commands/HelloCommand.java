@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 public class HelloCommand implements CommandExecutor {
 
-    private Main plugin;
+    final Main plugin;
 
     public HelloCommand(Main plugin){
 

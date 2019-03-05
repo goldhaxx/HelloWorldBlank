@@ -8,11 +8,11 @@ import org.bukkit.entity.Player;
 
 public class FuckJared implements CommandExecutor {
 
-    private Main plugin;
+    final Main plugin;
 
-    public FuckJared(Main plugin){
+    public FuckJared(Main plugin2){
 
-        this.plugin=plugin;
+        this.plugin=plugin2;
         plugin.getCommand("Praise the sun").setExecutor(this);
     }
 
